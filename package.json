@@ -1,0 +1,26 @@
+{
+  "name": "verificator",
+  "version": "1.0.0",
+  "description": "Simple verification bot for discord",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "rm -rf ./bin/ && tsc --build",
+    "start": "node .",
+    "dev": "ts-node -r dotenv/config src/index.ts",
+    "dev:watch": "ts-node-dev -r dotenv/config src/index.ts"
+  },
+  "author": "Crany",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord.js": "^14.14.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}

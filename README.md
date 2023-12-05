@@ -1,4 +1,2 @@
-# Nymbot - The Nymon Community bot
-Written with mostly with discord.js@14.12.1 and express@[tba].
-##### © Nymon Studios 2023 - [Discord Server](https://discord.gg/uTeExJDcp9)
-"# Verificator" 
+I've lost count of how many times I've done this
+ - Whatever is left of Crany's soul (2023)
